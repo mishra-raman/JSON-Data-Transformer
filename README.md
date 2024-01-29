@@ -1,7 +1,14 @@
-# JSON Data Transformer
+# JSON Data Transformer: An ETL Project
 
 ## Overview
-JSON Data Transformer is a Python-based utility designed to transform the structure of JSON data. It is particularly useful for renaming keys according to a predefined mapping. The project was initially created to process membership form data, converting it from an old format to a new one that is more suitable for further analysis, processing and storage.
+JSON Data Transformer is a Python-based ETL (Extract, Transform, Load) utility designed to transform the structure of JSON data. It is particularly useful for renaming keys according to a predefined mapping. The project was initially created to process membership form data, converting it from an old format to a new one that is more suitable for further processing or storage.
+
+## ETL Process
+This project implements a simple ETL process:
+
+1. **Extract**: Reads the original JSON data from an input file.
+2. **Transform**: Applies a mapping to rename keys and restructure the data.
+3. **Load**: Outputs the transformed data to a new JSON file.
 
 ## Features
 - Load JSON data from a file
@@ -9,12 +16,6 @@ JSON Data Transformer is a Python-based utility designed to transform the struct
 - Handle nested dictionaries
 - Transform data according to the mappings
 - Write the transformed data to a new JSON file
-
-## How It Works
-1. **Load Data**: Reads the original JSON data from an input file.
-2. **Define Key Mappings**: Specifies how the old keys should be renamed to new keys, including handling nested dictionaries.
-3. **Transform Data**: Iterates over each entry in the original data, applying the key mappings to rename keys and restructure the data.
-4. **Write Data**: Outputs the transformed data to a new JSON file.
 
 ## Key Functions
 - `extract_and_rename_keys(source, mapping)`: Recursively processes each key-value pair in the source data according to the mapping rules.
