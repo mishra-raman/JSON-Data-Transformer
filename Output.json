@@ -1,0 +1,32 @@
+[
+  {
+    "FirstName": "John",
+    "LastName": "Doe",
+    "EmailAddress": "john@example.com",
+    "PhoneNumber": "123-456-7890",
+    "AddressLine1": "123 Main St",
+    "AddressLine2": "Apt 101",
+    "City": "Anytown",
+    "State": "CA",
+    "ZipCode": "12345",
+    "Country": "US",
+    "NameForSignature": "John Doe",
+    "DateOfSignature": "2023-09-15",
+    "Comments": "Sample description"
+  },
+  {
+    "FirstName": "Jane",
+    "LastName": "Smith",
+    "EmailAddress": "jane@example.com",
+    "PhoneNumber": "987-654-3210",
+    "AddressLine1": "456 Elm St",
+    "AddressLine2": null,
+    "City": "Othertown",
+    "State": "NY",
+    "ZipCode": "67890",
+    "Country": "US",
+    "NameForSignature": "Jane Smith",
+    "DateOfSignature": "2023-09-20",
+    "Comments": "Another sample description"
+  }
+]
