@@ -33,10 +33,10 @@ To use the script, ensure that the input and output file paths are correctly set
 
 ## Input/Output Examples
 ### Input File
-Refer to `input.json` for a sample input file.
+Refer to [Input.json](Input.json) for a sample input file.
 
 ### Output File
-Refer to `output.json` for the corresponding output file.
+Refer to [Output.json](Output.json) for the corresponding output file.
 
 ## Customization
 To adapt the script to different data structures or requirements, modify the `key_mapping` dictionary to reflect the desired key transformations.
